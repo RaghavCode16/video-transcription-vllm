@@ -1,0 +1,88 @@
+.env
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.env
+.env.*
+*.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+data/output/*
+ENV/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Model / Cache files
+# =========================
+.cache/
+.cache-whisper/
+.whisper/
+.huggingface/
+hf_cache/
+
+# =========================
+# Whisper / Torch artifacts
+# =========================
+*.pt
+*.ckpt
+*.bin
+*.model
+
+# =========================
+# Data outputs (generated)
+# =========================
+data/output/audio.wav
+data/output/transcript.txt
+data/output/enriched_transcription.json
+
+# (Keep input video if needed)
+# data/input/*.mp4
+
+# =========================
+# Docker
+# =========================
+*.tar
+docker-compose.override.yml
+
+# =========================
+# Zip / archives
+# =========================
+*.zip
+
+# =========================
+# Build artifacts
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Jupyter (if any)
+# =========================
+.ipynb_checkpoints/

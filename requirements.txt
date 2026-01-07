@@ -1,0 +1,7 @@
+openai>=1.0.0
+openai-whisper
+faster-whisper
+ffmpeg-python
+pydub
+python-dotenv
+numpy<2
