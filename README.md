@@ -134,5 +134,3 @@ After execution, the following files are generated:
 
 ```
 
----
-```
